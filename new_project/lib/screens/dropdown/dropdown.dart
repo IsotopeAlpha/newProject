@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:new_project/screens/dropdown/helpers.dart';
 
-class MyDropDown extends StatefulWidget {
-  const MyDropDown({super.key});
+class ElegantDropDown extends StatefulWidget {
+  const ElegantDropDown({super.key});
 
   @override
-  State<MyDropDown> createState() => MyDropDownState();
+  State<ElegantDropDown> createState() => ElegantDropDownState();
 }
 
-class MyDropDownState extends State<MyDropDown> {
+class ElegantDropDownState extends State<ElegantDropDown> {
   String selected = DropDownHelper().items[0];
   @override
   Widget build(BuildContext context) {

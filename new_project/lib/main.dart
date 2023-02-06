@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             colorScheme: ThemeData()
                 .colorScheme
                 .copyWith(primary: AppColors.whiteColor)),
-        home: const MyDropDown(),
+        home: const ElegantDropDown(),
         routes: Routes.registerRoutes(),
       );
     }));
