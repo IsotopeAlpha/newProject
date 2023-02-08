@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_project/screens/custom_nav_bar/custom_nav_bar.dart';
 import 'package:new_project/screens/dropdown/dropdown.dart';
 import 'package:new_project/screens/login_page.dart';
 import 'package:new_project/utils/app_colors.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
             colorScheme: ThemeData()
                 .colorScheme
                 .copyWith(primary: AppColors.whiteColor)),
-        home: const ElegantDropDown(),
+        home: const MyCustomNavBar(),
         routes: Routes.registerRoutes(),
       );
     }));
